@@ -1,0 +1,3 @@
+"D:\Installation\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\OperationResearch.dir/objects.a
+D:\Installation\mingw64\bin\ar.exe cr CMakeFiles\OperationResearch.dir/objects.a @CMakeFiles\OperationResearch.dir\objects1.rsp
+D:\Installation\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\OperationResearch.dir/objects.a -Wl,--no-whole-archive -o OperationResearch.exe -Wl,--out-implib,libOperationResearch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OperationResearch.dir\linklibs.rsp
